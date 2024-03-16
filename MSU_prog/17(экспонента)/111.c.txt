@@ -1,0 +1,22 @@
+//111_Корецкий_Александр_экспонента
+
+#include <stdio.h>
+#include <conio.h>
+#include <locale.h>
+#include<stdlib.h>
+
+#include "d_p.h"
+
+#define Ep 0.0001 //эпсилон
+
+
+int main() {
+	double A;
+	
+	printf("\n");
+	printf("Vvedite chislo: "); //узнаем точки
+	scanf("%lf", &A); 
+	
+	printf("%lf", expa(A)); //находим экспоненту
+	return 0;
+}

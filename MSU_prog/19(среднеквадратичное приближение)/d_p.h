@@ -1,0 +1,9 @@
+//111_Корецкий_Александр_интерполяция
+
+#define N 6
+
+double summ (double *x); //сумма
+double summ_xy (double *x, double *y); //сумма произведений
+double summ_sq (double *x); //сумма квадратов
+double A_uravn(double *x, double *y); //коэффициент А
+double B_uravn(double *x, double *y); //коэффициент Б
